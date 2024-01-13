@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.my-containeer{
+    height: 100vh;
+    width: 99vw;
+
+}
+.my-card{
+    height: 10%;
+    width: 100%;
+    background-color: none;
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.my-btn{
+    padding: 10px;
+    background-color: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    color: gray;
+
+}
+
+.car{
+    height: 10%;
+    width: 100%;
+}
+.my-abt{
+    font-variant: small-caps;
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-c2{
+    height: 30%;
+    width: 100%;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.my-pra{
+    font-family: 'Times New Roman', Times, serif;
+}
+@media(max-width:400px){
+    .p-2{
+        display: flex ; 
+        flex-direction: column;
+        margin-top: 100px;
+        margin-right: 50px;
+        justify-content: center;
+        align-items: center;
+        
+        
+
+    }
+    .my-c2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
